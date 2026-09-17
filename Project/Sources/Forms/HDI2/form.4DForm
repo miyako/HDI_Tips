@@ -1,0 +1,257 @@
+{
+	"destination": "detailScreen",
+	"windowMinWidth": 720,
+	"windowMinHeight": 540,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "US Letter",
+		"paperWidth": "612pt",
+		"paperHeight": "792pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Tab Control": {
+					"type": "tab",
+					"top": 20,
+					"left": 25,
+					"width": 827,
+					"height": 542,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "Tab Control",
+					"dataSourceTypeHint": "arrayText",
+					"labels": [
+						"Info",
+						"Tips Display",
+						"Set the text of a tip"
+					],
+					"action": "gotoPage",
+					"method": "ObjectMethods/Tab Control.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Variable": {
+					"type": "input",
+					"top": 54,
+					"left": 48,
+					"width": 775,
+					"height": 488,
+					"dataSource": "TextInfo",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"styledText": true,
+					"allowFontColorPicker": true,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Variable1": {
+					"type": "input",
+					"top": 171,
+					"left": 236,
+					"width": 169,
+					"height": 16,
+					"dataSource": "TipsDelay",
+					"dataSourceTypeHint": "number",
+					"tooltip": "Delay in ticks before displaying of tips",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom"
+				},
+				"Variable2": {
+					"type": "input",
+					"top": 202,
+					"left": 236,
+					"width": 169,
+					"height": 16,
+					"dataSource": "TipsDuration",
+					"dataSourceTypeHint": "number",
+					"tooltip": "Duration in ticks of tips displaying (minimum 60 ticks)",
+					"contextMenu": "none",
+					"min": 60,
+					"dragging": "none",
+					"dropping": "custom"
+				},
+				"Text": {
+					"type": "text",
+					"top": 172,
+					"left": 57,
+					"width": 164,
+					"height": 15,
+					"text": "Delay before displaying tips"
+				},
+				"Text1": {
+					"type": "text",
+					"top": 202,
+					"left": 57,
+					"width": 164,
+					"height": 15,
+					"text": "Duration of tip display"
+				},
+				"Text2": {
+					"type": "text",
+					"top": 243,
+					"left": 57,
+					"width": 420,
+					"height": 19,
+					"fontFamily": "Segoe UI",
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"text": "Test the display of the tips with the parameters above:"
+				},
+				"Text3": {
+					"type": "text",
+					"top": 69,
+					"left": 57,
+					"width": 420,
+					"height": 19,
+					"fontFamily": "Segoe UI",
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"text": "Modify the parameters related to tips:"
+				},
+				"Variable3": {
+					"type": "input",
+					"top": 313,
+					"left": 440,
+					"width": 129,
+					"height": 129,
+					"dataSource": "Image1Path",
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"tooltip": "Help tip example",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"3D Radio Button": {
+					"type": "radio",
+					"top": 108,
+					"left": 57,
+					"width": 109,
+					"height": 46,
+					"dataSource": "EnableTips>0",
+					"focusable": false,
+					"text": "Tips enabled",
+					"iconFrames": 4,
+					"style": "roundedBevel",
+					"method": "ObjectMethods/3D Radio Button.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"3D Radio Button1": {
+					"type": "radio",
+					"top": 108,
+					"left": 164,
+					"width": 109,
+					"height": 46,
+					"dataSource": "EnableTips=0",
+					"focusable": false,
+					"text": "Tips disabled",
+					"iconFrames": 4,
+					"style": "roundedBevel",
+					"method": "ObjectMethods/3D Radio Button1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text5": {
+					"type": "text",
+					"top": 172,
+					"left": 420,
+					"width": 164,
+					"height": 15,
+					"text": "ticks"
+				},
+				"Text6": {
+					"type": "text",
+					"top": 202,
+					"left": 420,
+					"width": 164,
+					"height": 15,
+					"text": "ticks"
+				},
+				"Button": {
+					"type": "button",
+					"top": 180,
+					"left": 488,
+					"width": 96,
+					"height": 31,
+					"text": "Apply",
+					"focusable": false,
+					"method": "ObjectMethods/Button.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Picture": {
+					"type": "input",
+					"top": 131,
+					"left": 223,
+					"width": 412,
+					"height": 412,
+					"dataSource": "Image2Path",
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "solid",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"method": "ObjectMethods/Picture.4dm",
+					"events": [
+						"onMouseMove"
+					]
+				},
+				"Text4": {
+					"type": "text",
+					"top": 94,
+					"left": 55,
+					"width": 693,
+					"height": 19,
+					"fontFamily": "Segoe UI",
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"text": "On this picture, the tip text is modify dynamically depending to the animal flown over with the mouse:"
+				}
+			}
+		}
+	],
+	"geometryStamp": 109,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

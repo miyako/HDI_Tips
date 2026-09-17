@@ -1,0 +1,35 @@
+{
+	"(Default Forms)": {},
+	"(Default Project Methods)": {},
+	"(Default Tables)": {},
+	"(Dossier_1)": {},
+	"(Dossier)": {},
+	"FORMS": {
+		"forms": [
+			"HDI",
+			"HDI2"
+		]
+	},
+	"Init": {
+		"methods": [
+			"00_Start",
+			"InitExamples",
+			"InitInfo",
+			"m_Quit"
+		]
+	},
+	"METHODS": {
+		"groups": [
+			"Init"
+		]
+	},
+	"trash": {
+		"groups": [
+			"(Default Forms)",
+			"(Default Project Methods)",
+			"(Default Tables)",
+			"(Dossier_1)",
+			"(Dossier)"
+		]
+	}
+}
