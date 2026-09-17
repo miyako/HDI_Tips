@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="Project/Sources/Forms/HDI2/form.4DForm" source-language="en" target-language="en">
+		<body>
+			<trans-unit id="HDI2_TabInfo" resname="HDI2_TabInfo"><source>Info</source><target>Info</target></trans-unit>
+			<trans-unit id="HDI2_TabTipsDisplay" resname="HDI2_TabTipsDisplay"><source>Tips Display</source><target>Tips Display</target></trans-unit>
+			<trans-unit id="HDI2_TabSetTipText" resname="HDI2_TabSetTipText"><source>Set the text of a tip</source><target>Set the text of a tip</target></trans-unit>
+			<trans-unit id="HDI2_TooltipDelay" resname="HDI2_TooltipDelay"><source>Delay in ticks before displaying tips</source><target>Delay in ticks before displaying tips</target></trans-unit>
+			<trans-unit id="HDI2_TooltipDuration" resname="HDI2_TooltipDuration"><source>Duration of tip display in ticks (minimum 60 ticks)</source><target>Duration of tip display in ticks (minimum 60 ticks)</target></trans-unit>
+			<trans-unit id="HDI2_DelayLabel" resname="HDI2_DelayLabel"><source>Delay before displaying tips</source><target>Delay before displaying tips</target></trans-unit>
+			<trans-unit id="HDI2_DurationLabel" resname="HDI2_DurationLabel"><source>Duration of tip display</source><target>Duration of tip display</target></trans-unit>
+			<trans-unit id="HDI2_TestHeading" resname="HDI2_TestHeading"><source>Test tip display with the parameters above:</source><target>Test tip display with the parameters above:</target></trans-unit>
+			<trans-unit id="HDI2_ModifyHeading" resname="HDI2_ModifyHeading"><source>Modify the parameters related to tips:</source><target>Modify the parameters related to tips:</target></trans-unit>
+			<trans-unit id="HDI2_TooltipExample" resname="HDI2_TooltipExample"><source>Help tip example</source><target>Help tip example</target></trans-unit>
+			<trans-unit id="HDI2_TipsEnabled" resname="HDI2_TipsEnabled"><source>Tips enabled</source><target>Tips enabled</target></trans-unit>
+			<trans-unit id="HDI2_TipsDisabled" resname="HDI2_TipsDisabled"><source>Tips disabled</source><target>Tips disabled</target></trans-unit>
+			<trans-unit id="HDI2_Ticks" resname="HDI2_Ticks"><source>ticks</source><target>ticks</target></trans-unit>
+			<trans-unit id="HDI2_PictureInstructions" resname="HDI2_PictureInstructions"><source>On this picture, the tip text changes dynamically depending on the animal under the mouse pointer:</source><target>On this picture, the tip text changes dynamically depending on the animal under the mouse pointer:</target></trans-unit>
+			<trans-unit id="HDI2_InfoHtml" resname="HDI2_InfoHtml">
+				<source><![CDATA[<span><span style="font-size:12pt"><span style="font-weight:bold"><br/><br/><br/><span style="font-size:15pt">4D improves the management of tips!</span></span><br/><br/><br/><br/>You can now:<br/><br/><br/>          - Enable / Disable all tips in your application using</span> <span style="font-size:12pt"><span style="color:#068C00;font-weight:bold">SET DATABASE PARAMETER</span>(<span style="color:#4D004D;text-decoration:underline">Tips enabled</span>;<span style="color:#0000FF">value</span>)<br/><br/><br/>          - Modify the delay before displaying tips using <span style="color:#068C00;font-weight:bold">SET DATABASE PARAMETER</span>(<span style="color:#4D004D;text-decoration:underline">Tips delay</span>;<span style="color:#0000FF">value</span>)<br/><br/><br/>          - Modify the duration of tips display using <span style="color:#068C00;font-weight:bold">SET DATABASE PARAMETER</span>(<span style="color:#4D004D;text-decoration:underline">Tips duration</span>;<span style="color:#0000FF">value</span>)<br/><br/><br/>          - Dynamically set the text of a tip using <span style="color:#068C00;font-weight:bold">OBJECT SET HELP TIP</span></span></span>]]></source>
+				<target><![CDATA[<span><span style="font-size:12pt"><span style="font-weight:bold"><br/><br/><br/><span style="font-size:15pt">4D improves the management of tips!</span></span><br/><br/><br/><br/>You can now:<br/><br/><br/>          - Enable / Disable all tips in your application using</span> <span style="font-size:12pt"><span style="color:#068C00;font-weight:bold">SET DATABASE PARAMETER</span>(<span style="color:#4D004D;text-decoration:underline">Tips enabled</span>;<span style="color:#0000FF">value</span>)<br/><br/><br/>          - Modify the delay before displaying tips using <span style="color:#068C00;font-weight:bold">SET DATABASE PARAMETER</span>(<span style="color:#4D004D;text-decoration:underline">Tips delay</span>;<span style="color:#0000FF">value</span>)<br/><br/><br/>          - Modify the duration of tips display using <span style="color:#068C00;font-weight:bold">SET DATABASE PARAMETER</span>(<span style="color:#4D004D;text-decoration:underline">Tips duration</span>;<span style="color:#0000FF">value</span>)<br/><br/><br/>          - Dynamically set the text of a tip using <span style="color:#068C00;font-weight:bold">OBJECT SET HELP TIP</span></span></span>]]></target>
+			</trans-unit>
+			<trans-unit id="AnimalCow" resname="AnimalCow"><source>Cow</source><target>Cow</target></trans-unit>
+			<trans-unit id="AnimalCamel" resname="AnimalCamel"><source>Camel</source><target>Camel</target></trans-unit>
+			<trans-unit id="AnimalRabbit" resname="AnimalRabbit"><source>Rabbit</source><target>Rabbit</target></trans-unit>
+			<trans-unit id="AnimalPig" resname="AnimalPig"><source>Pig</source><target>Pig</target></trans-unit>
+			<trans-unit id="AnimalFish" resname="AnimalFish"><source>Fish</source><target>Fish</target></trans-unit>
+			<trans-unit id="AnimalRat" resname="AnimalRat"><source>Rat</source><target>Rat</target></trans-unit>
+			<trans-unit id="AnimalMonkey" resname="AnimalMonkey"><source>Monkey</source><target>Monkey</target></trans-unit>
+			<trans-unit id="AnimalElephant" resname="AnimalElephant"><source>Elephant</source><target>Elephant</target></trans-unit>
+			<trans-unit id="AnimalBear" resname="AnimalBear"><source>Bear</source><target>Bear</target></trans-unit>
+			<trans-unit id="AnimalPanther" resname="AnimalPanther"><source>Panther</source><target>Panther</target></trans-unit>
+			<trans-unit id="AnimalLion" resname="AnimalLion"><source>Lion</source><target>Lion</target></trans-unit>
+			<trans-unit id="AnimalFox" resname="AnimalFox"><source>Fox</source><target>Fox</target></trans-unit>
+			<trans-unit id="AnimalOwl" resname="AnimalOwl"><source>Owl</source><target>Owl</target></trans-unit>
+			<trans-unit id="AnimalDuck" resname="AnimalDuck"><source>Duck</source><target>Duck</target></trans-unit>
+			<trans-unit id="AnimalHen" resname="AnimalHen"><source>Hen</source><target>Hen</target></trans-unit>
+			<trans-unit id="AnimalFalcon" resname="AnimalFalcon"><source>Falcon</source><target>Falcon</target></trans-unit>
+		</body>
+	</file>
+</xliff>

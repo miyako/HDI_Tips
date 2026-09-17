@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="Project/Sources/Forms/HDI2/form.4DForm" source-language="en" target-language="ja">
+		<body>
+			<trans-unit id="HDI2_TabInfo" resname="HDI2_TabInfo"><source>Info</source><target>情報</target></trans-unit>
+			<trans-unit id="HDI2_TabTipsDisplay" resname="HDI2_TabTipsDisplay"><source>Tips Display</source><target>Tipsの表示</target></trans-unit>
+			<trans-unit id="HDI2_TabSetTipText" resname="HDI2_TabSetTipText"><source>Set the text of a tip</source><target>Tipのテキストを設定</target></trans-unit>
+			<trans-unit id="HDI2_TooltipDelay" resname="HDI2_TooltipDelay"><source>Delay in ticks before displaying tips</source><target>Tipを表示するまでの遅延（tick）</target></trans-unit>
+			<trans-unit id="HDI2_TooltipDuration" resname="HDI2_TooltipDuration"><source>Duration of tip display in ticks (minimum 60 ticks)</source><target>Tipの表示時間（tick、最小60 tick）</target></trans-unit>
+			<trans-unit id="HDI2_DelayLabel" resname="HDI2_DelayLabel"><source>Delay before displaying tips</source><target>Tipを表示するまでの遅延</target></trans-unit>
+			<trans-unit id="HDI2_DurationLabel" resname="HDI2_DurationLabel"><source>Duration of tip display</source><target>Tipの表示時間</target></trans-unit>
+			<trans-unit id="HDI2_TestHeading" resname="HDI2_TestHeading"><source>Test tip display with the parameters above:</source><target>上記のパラメーターでTipの表示をテスト：</target></trans-unit>
+			<trans-unit id="HDI2_ModifyHeading" resname="HDI2_ModifyHeading"><source>Modify the parameters related to tips:</source><target>Tipに関するパラメーターを変更：</target></trans-unit>
+			<trans-unit id="HDI2_TooltipExample" resname="HDI2_TooltipExample"><source>Help tip example</source><target>ヘルプTipの例</target></trans-unit>
+			<trans-unit id="HDI2_TipsEnabled" resname="HDI2_TipsEnabled"><source>Tips enabled</source><target>Tipsを有効にする</target></trans-unit>
+			<trans-unit id="HDI2_TipsDisabled" resname="HDI2_TipsDisabled"><source>Tips disabled</source><target>Tipsを無効にする</target></trans-unit>
+			<trans-unit id="HDI2_Ticks" resname="HDI2_Ticks"><source>ticks</source><target>ticks</target></trans-unit>
+			<trans-unit id="HDI2_PictureInstructions" resname="HDI2_PictureInstructions"><source>On this picture, the tip text changes dynamically depending on the animal under the mouse pointer:</source><target>画像上でマウスポインターが示す動物に応じて、Tipのテキストが動的に変わります：</target></trans-unit>
+			<trans-unit id="HDI2_InfoHtml" resname="HDI2_InfoHtml">
+				<source><![CDATA[<span><span style="font-size:12pt"><span style="font-weight:bold"><br/><br/><br/><span style="font-size:15pt">4D improves the management of tips!</span></span><br/><br/><br/><br/>You can now:<br/><br/><br/>          - Enable / Disable all tips in your application using</span> <span style="font-size:12pt"><span style="color:#068C00;font-weight:bold">SET DATABASE PARAMETER</span>(<span style="color:#4D004D;text-decoration:underline">Tips enabled</span>;<span style="color:#0000FF">value</span>)<br/><br/><br/>          - Modify the delay before displaying tips using <span style="color:#068C00;font-weight:bold">SET DATABASE PARAMETER</span>(<span style="color:#4D004D;text-decoration:underline">Tips delay</span>;<span style="color:#0000FF">value</span>)<br/><br/><br/>          - Modify the duration of tips display using <span style="color:#068C00;font-weight:bold">SET DATABASE PARAMETER</span>(<span style="color:#4D004D;text-decoration:underline">Tips duration</span>;<span style="color:#0000FF">value</span>)<br/><br/><br/>          - Dynamically set the text of a tip using <span style="color:#068C00;font-weight:bold">OBJECT SET HELP TIP</span></span></span>]]></source>
+				<target><![CDATA[<span><span style="font-size:12pt"><span style="font-weight:bold"><br/><br/><br/><span style="font-size:15pt">4DでTipsの管理がより便利になりました！</span></span><br/><br/><br/><br/>次の操作ができます：<br/><br/><br/>          - アプリケーション内のすべてのTipsを有効化／無効化：</span> <span style="font-size:12pt"><span style="color:#068C00;font-weight:bold">SET DATABASE PARAMETER</span>(<span style="color:#4D004D;text-decoration:underline">Tips enabled</span>;<span style="color:#0000FF">value</span>)<br/><br/><br/>          - Tipsを表示するまでの遅延を変更：<span style="color:#068C00;font-weight:bold">SET DATABASE PARAMETER</span>(<span style="color:#4D004D;text-decoration:underline">Tips delay</span>;<span style="color:#0000FF">value</span>)<br/><br/><br/>          - Tipsの表示時間を変更：<span style="color:#068C00;font-weight:bold">SET DATABASE PARAMETER</span>(<span style="color:#4D004D;text-decoration:underline">Tips duration</span>;<span style="color:#0000FF">value</span>)<br/><br/><br/>          - Tipのテキストを動的に設定：<span style="color:#068C00;font-weight:bold">OBJECT SET HELP TIP</span></span></span>]]></target>
+			</trans-unit>
+			<trans-unit id="AnimalCow" resname="AnimalCow"><source>Cow</source><target>牛</target></trans-unit>
+			<trans-unit id="AnimalCamel" resname="AnimalCamel"><source>Camel</source><target>ラクダ</target></trans-unit>
+			<trans-unit id="AnimalRabbit" resname="AnimalRabbit"><source>Rabbit</source><target>ウサギ</target></trans-unit>
+			<trans-unit id="AnimalPig" resname="AnimalPig"><source>Pig</source><target>豚</target></trans-unit>
+			<trans-unit id="AnimalFish" resname="AnimalFish"><source>Fish</source><target>魚</target></trans-unit>
+			<trans-unit id="AnimalRat" resname="AnimalRat"><source>Rat</source><target>ネズミ</target></trans-unit>
+			<trans-unit id="AnimalMonkey" resname="AnimalMonkey"><source>Monkey</source><target>猿</target></trans-unit>
+			<trans-unit id="AnimalElephant" resname="AnimalElephant"><source>Elephant</source><target>象</target></trans-unit>
+			<trans-unit id="AnimalBear" resname="AnimalBear"><source>Bear</source><target>熊</target></trans-unit>
+			<trans-unit id="AnimalPanther" resname="AnimalPanther"><source>Panther</source><target>ヒョウ</target></trans-unit>
+			<trans-unit id="AnimalLion" resname="AnimalLion"><source>Lion</source><target>ライオン</target></trans-unit>
+			<trans-unit id="AnimalFox" resname="AnimalFox"><source>Fox</source><target>キツネ</target></trans-unit>
+			<trans-unit id="AnimalOwl" resname="AnimalOwl"><source>Owl</source><target>フクロウ</target></trans-unit>
+			<trans-unit id="AnimalDuck" resname="AnimalDuck"><source>Duck</source><target>アヒル</target></trans-unit>
+			<trans-unit id="AnimalHen" resname="AnimalHen"><source>Hen</source><target>雌鶏</target></trans-unit>
+			<trans-unit id="AnimalFalcon" resname="AnimalFalcon"><source>Falcon</source><target>ハヤブサ</target></trans-unit>
+		</body>
+	</file>
+</xliff>

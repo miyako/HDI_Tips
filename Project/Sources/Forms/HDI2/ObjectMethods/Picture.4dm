@@ -1,3 +1,4 @@
+var $message : Text
 
 If (Form event code:C388=On Mouse Move:K2:35)
 	$message:=AnimalTips(MouseX; MouseY)

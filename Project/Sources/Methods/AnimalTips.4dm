@@ -1,30 +1,25 @@
-//%attributes = {}
+//%attributes = {"invisible":true}
+#DECLARE($x : Real; $y : Real)->$result : Text
 
-
-C_REAL:C285($x; $1; $y; $2)
-C_LONGINT:C283($column; $row)
-C_TEXT:C284($0)
-
-$x:=$1
-$y:=$2
+var $column; $row : Integer
 
 ARRAY TEXT:C222($animals; 4; 4)
-$animals{1}{1}:="Cow"
-$animals{1}{2}:="Camel"
-$animals{1}{3}:="Rabbit"
-$animals{1}{4}:="Pig"
-$animals{2}{1}:="Fish"
-$animals{2}{2}:="Rat"
-$animals{2}{3}:="Monkey"
-$animals{2}{4}:="Elephant"
-$animals{3}{1}:="Bear"
-$animals{3}{2}:="Panther"
-$animals{3}{3}:="Lion"
-$animals{3}{4}:="Fox"
-$animals{4}{1}:="Owl"
-$animals{4}{2}:="Duck"
-$animals{4}{3}:="Hen"
-$animals{4}{4}:="Falcon"
+$animals{1}{1}:=Localized string("AnimalCow")
+$animals{1}{2}:=Localized string("AnimalCamel")
+$animals{1}{3}:=Localized string("AnimalRabbit")
+$animals{1}{4}:=Localized string("AnimalPig")
+$animals{2}{1}:=Localized string("AnimalFish")
+$animals{2}{2}:=Localized string("AnimalRat")
+$animals{2}{3}:=Localized string("AnimalMonkey")
+$animals{2}{4}:=Localized string("AnimalElephant")
+$animals{3}{1}:=Localized string("AnimalBear")
+$animals{3}{2}:=Localized string("AnimalPanther")
+$animals{3}{3}:=Localized string("AnimalLion")
+$animals{3}{4}:=Localized string("AnimalFox")
+$animals{4}{1}:=Localized string("AnimalOwl")
+$animals{4}{2}:=Localized string("AnimalDuck")
+$animals{4}{3}:=Localized string("AnimalHen")
+$animals{4}{4}:=Localized string("AnimalFalcon")
 
 Case of 
 	: ($x<125)
@@ -49,10 +44,7 @@ Case of
 End case 
 
 If ($row>0) & ($column>0)
-	$0:=$animals{$row}{$column}
+	$result:=$animals{$row}{$column}
 Else 
-	$0:=""
+	$result:=""
 End if 
-
-
-
